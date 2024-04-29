@@ -1,0 +1,24 @@
+.carouselItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #111;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.carouselItem:hover {
+  transform: translateY(-5px);
+}
+
+.carouselItem__img {
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.carouselItem__img:hover {
+  transform: scale(1.05);
+}

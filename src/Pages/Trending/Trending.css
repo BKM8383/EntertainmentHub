@@ -1,0 +1,20 @@
+.trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+  gap: 20px; /* Gap between grid items */
+  background-color: #111; /* Dark background color */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.trending-item {
+  background-color: #222; /* Dark background color for each item */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.trending-item img {
+  width: 100%; /* Ensure images fill their containers */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default spacing */
+}

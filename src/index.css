@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+a {
+  text-decoration: none;
+  color: #e50914; /* Netflix red color */
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif; /* Change default font to Montserrat */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000; /* Dark background color */
+  color: #fff; /* Default text color */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: #ccc; /* Code text color */
+}
